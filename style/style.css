@@ -1,0 +1,134 @@
+.header-wrapper {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex-container-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0 6px 92px;
+}
+.header-icon a {
+    color:  #FA793C;
+    font-size: 18px;
+}
+.nav-ul a {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'ABeeZee', sans-serif;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 252px;
+    margin-left: 728px;
+  }
+.fa-circle-user {
+    padding-left: 40px;
+    width: 25px;
+    height: 25px;
+}
+.burger-bar { 
+    display: none;
+}
+ /* ჰედერი დასრულდა*/
+
+  /*პირველი სექცია */
+
+ .section-1 {
+    background-image: url(/image/Rectangle-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: 100vh;
+ } 
+ .flex-container-s{
+    display: flex;
+ }
+ .s-box-left{
+    width: 532px;
+    padding: 151px 0 0 144px;
+ }
+ .s-box-left h3 {
+    max-width: 322px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+ }
+ .s-box-left p {
+    width: 532px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    Line-height: 23.92px;
+    padding-left: 20px;
+ }
+ .s-box-right {
+  display: flex;
+ }
+.white-box {
+    background-color: #fff;
+    width: 440px;
+    height: 404px;
+    margin-left: 177.5px;
+    margin-right:  128.5px;
+    margin-top:72px;
+    margin-bottom:  72px;
+}
+ .s-box-right h4 {
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;    
+    font-weight: 600;
+ }
+ .white-box-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 57px 8px 38.5px;
+ }
+ .fa-solid {
+    padding-right: 19px;
+ }
+ .white-box-2{
+    width: 360px;
+  
+ }
+ .white-box-2 h5 {
+    color: #FA793C;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    padding-left: 38px;
+    padding-bottom: 8px;
+ }
+ .white-box-2 p {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    line-height: 24px;  
+    padding-left: 38px;
+    padding-bottom: 8px;
+ }
+
+ /* მეორე სექცია დასრულდა */
+
+ .Discover{
+    
+ }

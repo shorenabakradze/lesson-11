@@ -1,1 +1,61 @@
-@media 
+@media (max-width: 834px) and (min-width: 375px) {
+     /* ჰედერი */
+.header-icon {
+     padding-left: 25px; 
+    } 
+.burger-bar {
+        display: none;
+    }
+ /* ჰედერი დასრულდა*/
+
+ /*პირველი სექცია */
+ .s-box-left{
+    max-width: 640px;
+    padding: 31px 0 0 10px;
+ }
+ .s-box-left p {
+    max-width: 640px;
+    font-size: 20px;
+    Line-height: 29.9px;
+ }
+}
+@media (max-width: 375px) {
+    /* ჰედერი */
+.header-icon {
+     padding-left:  25px; 
+    } 
+.burger-bar {
+    display: block;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    }
+.header-nav{
+    display: none;
+    }
+ /* ჰედერი დასრულდა*/
+
+  /*პირველი სექცია */
+  .s-box-left h3 {
+    width: 258px;
+    text-align: center;
+  }
+  .s-box-left{
+    width: 350px;
+    padding: 11px 5px 0 5px;
+ }
+ .s-box-left p {
+    width: 350px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 14px;
+    Line-height: 20.93px;
+ }
+ .s-box-left h3 {
+    font-size: 40px; 
+    text-align: center;
+}
+
+}
